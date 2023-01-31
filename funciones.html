@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAL</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="imagen/x-icon" href="https://www.clipartmax.com/png/middle/36-363097_icono-para-pagina-web.png">
+</head>
+<body>
+   
+    <div id = "Nombre">
+        <p> Sintesis Curricular</p>
+        
+        <img src="incognita.jfif">
+        <form action="ruta_del_script_de_subida.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="imagen">
+            <input type="submit" value="Subir imagen">
+          </form>
+    </div> 
+            </form>  
+         <fieldset>
+          <legend> Datos Generales</legend>  
+          <ul>
+            <form action="">
+            <li><label >Nombre</label>
+                <input type="text" placeholder="ingresar nombre" required>
+                <label > Apellido</label>
+                <input type="text" placeholder="Ingresar Apellido" required>
+                <label >Correo Electronico</label>
+                <input type="email" placeholder="ingresar Correo"required>
+                <label > DNI</label>
+                <input type="number" placeholder="Ingresar number"required>
+            </li>
+                
+            <li>
+                <label > Fecha de Nacimiento</label>
+                <input type="date" name="date" placeholder=""required>
+                <label >Idiomas que Domina</label>
+                <input type="idioma" placeholder="ingresar Idiomas">
+                <label > Direccion</label>
+                <input type="text" placeholder="Ingresar Direccion"required>
+                <label > Telefono</label>
+                <input type="number" placeholder="">
+            </li>
+            
+          </ul>
+         </fieldset>
+         <fieldset>
+            <legend> Estudios Academicos</legend>
+         <ol>
+            <form action="">
+                <li> <label for="Primaria">Primaria</label>
+                    <input id= "Primaria" type="text" name="Nivel" value="primaria">
+                    <label > Fecha de Inicio</label>
+                    <input type="date" name="date" placeholder="">
+                    <label > Fecha de Culminación</label>
+                    <input type="date" name="date" placeholder="">
+                    <br>
+                    <br>
+                    <li><label for="Secundaria">Secundaria</label>
+                        <input ide="Secundaria" type="text" name="Nivel" value="secundaria" >
+                        <label > Fecha de Inicio</label>
+                        <input type="date" name="date" placeholder="">
+                        <label > Fecha de Culminación</label>
+                        <input type="date" name="date" placeholder=""></li>
+                    
+                    <br>
+             <label >Nivel Universitario:</label>
+             <br>
+             <br> 
+                <ol><label >Terciario</label>
+                   <input type="checkbox" placeholder="Nivel" name="Terciario" value="Terciario">
+                   <input type="text"placeholder="Nombre del instituto">
+                   <label > Fecha de Inicio</label>
+                   <input type="date" name="date" placeholder="">
+                   <label > Fecha de Culminación</label>
+                    <input type="date" name="date" placeholder="">
+                </ol>
+                    
+                    <br>
+                    <label > Licenciatura</label>
+                    <input type="checkbox" placeholder="Nivel" name="Licenciatura" value="Licenciatura">
+                    <input type="text"placeholder="Nombre del instituto">
+                    <label > Fecha de Inicio</label>
+                    <input type="date" name="date" placeholder="">
+                    <label > Fecha de Culminación</label>
+                    <input type="date" name="date" placeholder="">
+         </ol>
+         </fieldset>
+         <fieldset>
+            <legend>Experiencias Laborales</legend>
+            <ol>
+                <li> 
+                    <label for="">Cargo</label>
+                <input type="text" placeholder="ingresar Cargo">
+                    
+                <label > Fecha de Inicio</label>
+                    <input type="date" name="date" placeholder="">
+                    <label > Fecha de Culminación</label>
+                    <input type="date" name="date" placeholder="">
+                    <label for="">Actual</label>
+                    <input type="checkbox" name="actual">
+                    <br>
+                  <label for="">Descripcion del Cargo</label>
+                    <br>
+                 <textarea name="Cargo" id="Drscripcion del cargo" cols="80" rows="5"></textarea>
+                
+                
+                </li>
+                <br>
+                <li> 
+                    <label for="">Cargo</label>
+                <input type="text" placeholder="ingresar Cargo">
+                    
+                <label > Fecha de Inicio</label>
+                    <input type="date" name="date" placeholder="">
+                    <label > Fecha de Culminación</label>
+                    <input type="date" name="date" placeholder="">
+                    <br>
+                  <label for="">Descripcion del Cargo</label>
+                    <br>
+                 <textarea name="Cargo" id="Drscripcion del cargo" cols="80" rows="5"></textarea>
+                
+                
+                </li>
+                <br>
+                <li> 
+                    <label for="">Cargo</label>
+                <input type="text" placeholder="ingresar Cargo">
+                    
+                <label > Fecha de Inicio</label>
+                    <input type="date" name="date" placeholder="">
+                    <label > Fecha de Culminación</label>
+                    <input type="date" name="date" placeholder="">
+                    <br>
+                  <label for="">Descripcion del Cargo</label>
+                    <br>
+                 <textarea name="Cargo" id="Drscripcion del cargo" cols="80" rows="5"></textarea>
+                
+                
+                </li>
+            </ol>
+         </fieldset>
+         
+    </div> 
+    <form>
+        
+        <section>
+            <h4>Estoy de acuerdo con<a href="#">Terminos y condiciones</a></h4>
+          
+        </section>
+         <input type="submit" value="enviar">
+         <br>
+        <label>numero 1
+            <input type="nombre" id="numero1" required>
+        </label>
+        <label>numero 2
+            <input type="nombre" id="numero2" required>
+        </label>
+        <button type="button" id="sumar"> Realizar suma</button>
+    </form>
+    
+    </div>
+    <script src="js/sumer.js"></script>
+</body>
+</html>

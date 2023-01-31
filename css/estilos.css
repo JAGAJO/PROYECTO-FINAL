@@ -1,0 +1,52 @@
+html,body¨{color:black;}
+#Nombre{
+    border: solid 3px;
+    padding: 8px;
+}
+ legend{
+    border: solid 1px;
+    border-radius: 10px;
+
+
+}
+p{
+    color: black;
+    font-weight: bolder;
+    font-size:x-large ;
+    position: relative;
+    left: 40%;
+}
+img{
+
+    
+    top: 8%;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+fieldset{
+    color: black;
+    border: solid 3px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding: 8px;;
+    
+    
+}
